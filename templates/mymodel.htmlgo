@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>MyModel Template</title>
+    </head>
+    <body>
+        <h1>MyModel Template</h1>
+        I: {{ .I | print }}<br />
+        B: {{ .B }}<br />
+        {{ if .B }}
+        Yay!<br />
+        {{ end }}
+        F: {{ .F }}<br />
+        Save: {{ .Save }}<br />
+        {{/*
+            "Test"
+        */}}
+    </body>
+</html>
